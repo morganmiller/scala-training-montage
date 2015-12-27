@@ -1,51 +1,19 @@
 # Scala Training Montage
 #### A Rocky-esque learning endeavor.
 
-## Resources:
-* [Quora DSA question](https://www.quora.com/What-are-the-10-must-know-algorithms-and-data-structures-for-a-software-engineer)
-* Programming in Scala v. 2
-* Elements of Programming Interviews
+### Reference and Resources
+* ~~Programming in Scala v. 2~~ (outdated and verbose)
+* [Tutorials Point](http://www.tutorialspoint.com/scala/index.htm) Good for quick reference & syntax.
+* [Cheatsheet](http://docs.scala-lang.org/cheatsheets/)
+* [Scala for the Impatient](http://fileadmin.cs.lth.se/scala/scala-impatient.pdf) Also slightly outdated (2012, prob 2.9), but easy to work through
+* [Functional Programming in Scala](http://file.allitebooks.com/20150627/Functional%20Programming%20in%20Scala.pdf) << The red one, on recommendation.
+* Scala Code Design [Twitter Style Guide](http://twitter.github.io/effectivescala/)
 
 
-### Week 1
-* Programming in Scala Ch 1-5
-* 2 HackerRank challenges
-* Arrays/Hash Tables
+### Challenges
+* [Exercism.io](http://exercism.io/)
+* [Advent of Code](http://adventofcode.com/)
+* I got [99 Scala Problems](http://aperiodic.net/phil/scala/s-99/)
+
+### Other Readings
 * [16 Months of Functional Programming](http://www.vasinov.com/blog/16-months-of-functional-programming/)
-* Scala strings v. Ruby strings
-
-### Week 2
-* Programming in Scala Ch 6-10
-* 1-2 HackerRanks
-* Stacks and Queues
-* Big O Notation
-
-### Week 3
-* Programming in Scala Ch 11-15
-* Scala Linked List
-* Sorting Algorithms
-* BST/Red&Black Trees (Four traversals)
-
-### Week 4
-* Programming in Scala Ch 16-20
-* Graphs/Matrices?
-* Searching Algorithms
-
-### Week 5
-* Programming in Scala Ch 21-25
-* Scala Code Design
-* Tries
-
-### Week 6
-* Programming in Scala Ch 26-30
-* More Sorting Algorithms
-
-### Week 7
-* Programming in Scala Ch 31-35
-* REGEXes and Matching Algorithms
-
-### Week 8
-* TBD
-
-### Week 9
-* TBD
