@@ -7,3 +7,16 @@ def countFloors(s: String, upOrDown: Char) = {
 }
 
 println(countFloors(directions, '(') - countFloors(directions, ')')) //280
+
+//refactor this with a case statement bc scala cases are rad
+def basementPosition(s: String, index: Int = 0, floor: Int = 0):Int = {
+  if(floor == -1){
+    index
+  } else if(s(index) == '(') {
+    basementPosition(s, index+1, floor+1)
+  } else {
+    basementPosition(s, index+1, floor-1)
+  }
+}
+
+println(basementPosition(directions))
