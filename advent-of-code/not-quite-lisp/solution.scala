@@ -1,6 +1,6 @@
 import scala.io.Source
 
-val directions = Source.fromFile("input.txt").getLines.mkString
+val directions = Source.fromFile("not-quite-lisp/input.txt").getLines.mkString
 
 def countFloors(s: String, upOrDown: Char) = {
   s.count(c => c == upOrDown)
