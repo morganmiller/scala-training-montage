@@ -1,6 +1,6 @@
 import org.scalatest._
 
-class NoMathSpecs extends FlatSpec with Matchers {
+class DayTwoSpecs extends FlatSpec with Matchers {
 //OrderCalculator tests
   def calculator = new OrderCalculator("src/test/input/presentdimensions.txt")
 
