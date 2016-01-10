@@ -13,7 +13,9 @@ object RecFactorial {
     factorial(7)
 }
 
-/* using tailrec annotation should throw error */
+/* using tailrec annotation should throw error
+   because recursive calls not in tail position 
+*/
 object BadFactorial {
   def notFactorial(n: Int): Int = {
     def loop(n: Int, acc: Int): Int =
