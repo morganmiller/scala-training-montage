@@ -1,11 +1,11 @@
 object Parser {
   def parseInput() = {
-    val numberOfTests = scala.io.StdIn.readInt
+    val numberOfTests = readInt
     0.until(numberOfTests).map(
       testNumber => {
-        scala.io.StdIn.readInt
-          val numbers = scala.io.StdIn.readLine
-          numbers.split(" ").toList.map(_.toInt)
+        readInt
+        val numbers = readLine
+        numbers.split(" ").toList.map(_.toInt)
       }
     )
   }
