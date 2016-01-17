@@ -57,8 +57,8 @@ object MyList {
   } // Not constant time, can reach stack overflow for large lists
 
 
-  def foldRight[A,B](as: MyList[A], z: B)(f: (A, B) => B): B = as match {
-    ￼￼￼case Nil => z
+  def foldRight[A,B](foo: MyList[A], z: B)(f: (A, B) => B): B = foo match {
+    case Nil => z
     case Cons(x, xs) => f(x, foldRight(xs, z)(f))
   }
 
